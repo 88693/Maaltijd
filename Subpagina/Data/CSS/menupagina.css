@@ -6,15 +6,17 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    background-color: #2196F3;
     padding: 10px;
-    
+    margin-top: 100px;
+    grid-gap: 20px;
 }
 
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 20px;
+    background-color: gray;
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
+    height: 350px;
+    width: 450px;
     font-size: 30px;
     text-align: center;
 }
