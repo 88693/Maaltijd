@@ -20,9 +20,41 @@ body {
     width: 450px;
     font-size: 30px;
     text-align: center;
+    min-width: auto;
 }
 
 img {
     border-radius: 10px;
     max-height: 350px;
+}
+
+.bestel {
+    background-color: rgb(207, 207, 207);
+    width: 450px;
+    height: 100px;
+    margin-top: 400px;
+}
+
+.artichoke,
+.black-bass,
+.caviar,
+.crab,
+.filet-mignon,
+.kampachi,
+.langoustine,
+.lobster,
+.mesclun-salad,
+.octopus,
+.oester-uni,
+.oester,
+.red-snapper,
+.salmon,
+.scallop-caviar,
+.scallop,
+.shellfish-medley
+.tasmanian-sea-trout,
+.tuna,
+.tuna-urchin {
+    width: 448px;
+    height: 328px;
 }
