@@ -16,7 +16,7 @@ body {
     margin-left: 20px;
     background-color: rgb(207, 207, 207);
     border: 1px solid rgba(0, 0, 0, 0.8);
-    height: 450px;
+    height: 550px;
     width: 450px;
     font-size: 30px;
     text-align: center;
@@ -26,13 +26,6 @@ body {
 img {
     border-radius: 10px;
     max-height: 350px;
-}
-
-.bestel {
-    background-color: rgb(207, 207, 207);
-    width: 450px;
-    height: 100px;
-    margin-top: 400px;
 }
 
 .artichoke,
@@ -54,7 +47,38 @@ img {
 .shellfish-medley
 .tasmanian-sea-trout,
 .tuna,
-.tuna-urchin {
+.tuna-urchin,
+.tapas {
     width: 448px;
     height: 328px;
+    border: 1px solid black;
+}
+
+button {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.increase {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.decrease {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+#artichoke {
+    width: 40px;
+    height: 35px;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
