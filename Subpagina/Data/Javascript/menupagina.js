@@ -61,3 +61,15 @@ document.getElementById("aantalTasmanianSeaTrout").value = tasmanianseatrout;
 document.getElementById("aantalTuna").value = tuna;
 document.getElementById("aantalTunaUrchin").value = tunaurchin;
 document.getElementById("aantalTapas").value = tapas;
+
+let koopProduct = function(product, aantal) {
+if (product === 'artichoke') {
+    artichoke = artichoke + 1;
+    totaalArtichoke = totaalArtichoke + aantal;
+}
+
+document.getElementById("aantalArtichoke").value = artichoke;
+
+document.getElementById("prijsArtickoke").value = totaalArtichoke;
+}
+
