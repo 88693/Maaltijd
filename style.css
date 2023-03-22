@@ -69,6 +69,13 @@ a {
 	font-weight: 100;
 }
 
+h1 {
+	font-size: 3em;
+	color: #666666	;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -151,52 +158,61 @@ header .logo {
 	position: absolute;
 }
 
-.info_restaurant {
-    width: 45%;
-	float: left;
-	height: 50vh;
-	background-color: #e3e3e1;
-	position: relative;
-	border: 5px solid black;
-}
-
-.border {
-	float: left;
-	height: 55vh;
-	width: 4%;
+.menu_restaurant {
+    width: 100%;
+	height: 40vh;
 	background-color: #FBF6EF;
+	position: relative;
+	border: none;
+	text-align: center;
 }
 
-.info_restaurant img {
-	margin-top: 8%;
-	height: 80%;
+.menu_restaurant h1 {
+	text-align: center;
+	top: 20%;
+	left: 50%;
+	color: #666666;
+	font-family: 'Great Vibes', cursive;
+}
+
+.eten_container {
+	width: 100%;
+	display: flex;
+	position: relative;
+}
+
+.eten {
+	top: 40%;
+	width: 33.3%;
+	position: relative;
+}
+
+.eten img {
+	margin-top: 10%;
+	height: 100%;
 	width: 100%;
 }
 
-.info_restaurant p {
-	position: absolute;
+.info_corona {
+    width: 100%;
+	height: 50vh;
+	background-color: #FBF6EF;
 	text-align: center;
-	font-weight: bold;
-	font-size: 3em;
-	left: 45%;
-	top: 12%;
+	
 }
 
-.info_corona {
-    width: 45%;
-    float: left;
-	height: 50vh;
-	background-color: #e3e3e1;
-	position: relative;
+.info_corona h1 {
 	text-align: center;
-	border: 5px solid black;
+	top: 100%;
+	position: relative;
+	color: #666666;
+	font-family: 'Great Vibes', cursive;
 }
 
 .boxes {
-	margin-left: 7.5%;
-	margin-right: 7.5%;
-	width: 90%;
-	height: 50vh;
+	height: 100vh;
+	position: absolute;
+	width: 100%;
 }
 
 footer {
