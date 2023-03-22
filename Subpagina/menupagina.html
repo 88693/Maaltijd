@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./Data/CSS/menupagina.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu pagina</title>
+</head>
+<body>
+    <div class="grid-container">
+            <div class="grid-item"><img class="artichoke" src="./Afbeeldingen/Artichoke.jpg">
+                <p>Artichoke: 76,00</p>
+                <button class="decrease" onclick="verwijderProduct(artichoke, 76)">-</button>
+                <button class="increase" onclick="koopProduct(artichoke, 76)">+</button><br/>
+                <p>Aantal <input type="number" id="aantalArtichoke" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsArtichoke" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="black-bass" src="./Afbeeldingen/Black bass.PNG">
+                <p>Black bass: 85,00</p>
+                <button class="decrease" onclick="verwijderProduct(blackBass, 85)">-</button>
+                <button class="increase" onclick="koopProduct(blackBass, 85)">+</button>
+                <p>Aantal <input type="number" id="aantalBlackBass" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsBlackBass" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="caviar" src="./Afbeeldingen/Caviar.jpeg">
+                <p>Caviar: 145,00</p>
+                <button class="decrease" onclick="verwijderProduct(caviar, 145)">-</button>
+                <button class="increase" onclick="koopProduct(caviar, 145)">+</button>
+                <p>Aantal <input type="number" id="aantalCaviar" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsCaviar" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="crab" src="./Afbeeldingen/Crab.jpg">
+                <p>Crab: 100,00</p>
+                <button class="decrease" onclick="verwijderProduct(crab, 100)">-</button>
+                <button class="increase" onclick="koopProduct(crab, 100)">+</button>
+                <p>Aantal <input type="number" id="aantalCrab" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsCrab" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="filet-mignon" src="./Afbeeldingen/Filet mignon.jpg">
+                <p>Filet mignon: 100,00</p>
+                <button class="decrease" onclick="verwijderProduct(filetMignon, 100)">-</button>
+                <button class="increase" onclick="koopProduct(filetMignon, 100)">+</button>
+                <p>Aantal <input type="number" id="aantalFiletMignon" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsFiletMignon" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="kampachi" src="./Afbeeldingen/Kampachi.jpg">
+                <p>Kampachi: 150,00</p>
+                <button class="decrease" onclick="verwijderProduct(kampachi, 150)">-</button>
+                <button class="increase" onclick="koopProduct(kampachi, 150)">+</button>
+                <p>Aantal <input type="number" id="aantalKampachi" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsKampachi" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="langoustine" src="./Afbeeldingen/Langoustine.jpg">
+                <p>Langoustine: 145,00</p>
+                <button class="decrease" onclick="verwijderProduct(langoustine, 145)">-</button>
+                <button class="increase" onclick="koopProduct(langoustine, 140)">+</button>
+                <p>Aantal <input type="number" id="aantalLangoustine" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsLangoustine" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="lobster" src="./Afbeeldingen/Lobster.jpg">
+                <p>Lobster: 90,00</p>
+                <button class="decrease" onclick="verwijderProduct(lobster, 90)">-</button>
+                <button class="increase" onclick="koopProduct(lobster, 90)">+</button>
+                <p>Aantal <input type="number" id="aantalLobster" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsLobster" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="mesclun-salad" src="./Afbeeldingen/Mesclun salad.PNG">
+                <p>Mesclun salad: 140,00</p>
+                <button class="decrease" onclick="verwijderProduct(meslunSalad, 140)">-</button>
+                <button class="increase" onclick="koopProduct(meslunSalad, 140)">+</button>
+                <p>Aantal <input type="number" id="aantalMesclunSalad" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsMeslunSalad" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="octopus" src="./Afbeeldingen/Octopus.PNG">
+                <p>Octopus: 60,00</p>
+                <button class="decrease" onclick="verwijderProduct(octopus, 60)">-</button>
+                <button class="increase" onclick="koopProduct(octopus, 60)">+</button>
+                <p>Aantal <input type="number" id="aantalOctopus" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsOctopus" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="oyster-uni" src="./Afbeeldingen/Oester-uni.jpg">
+                <p>Oyster-uni: 90,50</p>
+                <button class="decrease" onclick="verwijderProduct(oysterUni, 90.50)">-</button>
+                <button class="increase" onclick="koopProduct(oysterUni, 90.50)">+</button>
+                <p>Aantal <input type="number" id="aantalOysterUni" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsOysterUni" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="oyster" src="./Afbeeldingen/Oester.PNG">
+                <p>Oyster: 120,00</p>
+                <button class="decrease" onclick="verwijderProduct(oyster, 120)">-</button>
+                <button class="increase" onclick="koopProduct(oyster, 120)">+</button>
+                <p>Aantal <input type="number" id="aantalOyster" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsOyster" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="red-snapper" src="./Afbeeldingen/Red snapper.jpg">
+                <p>Red snapper: 160,00</p>
+                <button class="decrease" onclick="verwijderProduct(redSnapper, 160)">-</button>
+                <button class="increase" onclick="koopProduct(redSnapper, 160)">+</button>
+                <p>Aantal <input type="number" id="aantalRedSnapper" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsRedSnapper" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="salmon" src="./Afbeeldingen/Salmon.jpg">
+                <p>Salmon: 70,00</p>
+                <button class="decrease" onclick="verwijderProduct(salmon, 70)">-</button>
+                <button class="increase" onclick="koopProduct(salmon, 70)">+</button>
+                <p>Aantal <input type="number" id="aantalSalmon" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsSalmon" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="scallop-caviar" src="./Afbeeldingen/Scallop caviar.PNG">
+                <p>Scallop caviar: 50,00</p>
+                <button class="decrease" onclick="verwijderProduct(scallopCaviar, 50)">-</button>
+                <button class="increase" onclick="koopProduct(scallopCaviar, 50)">+</button>
+                <p>Aantal <input type="number" id="aantalScallopCaviar" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsScallopCaviar" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="scallop" src="./Afbeeldingen/Scallop.jpg">
+                <p>Scallop: 80,50</p>
+                <button class="decrease" onclick="verwijderProduct(scallop, 80.50)">-</button>
+                <button class="increase" onclick="koopProduct(scallop, 80.50)">+</button>
+                <p>Aantal <input type="number" id="aantalScallop" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsScallop" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="shellfish-medley" src="./Afbeeldingen/Shellfish medley.jpg">
+                <p>Shellfish medley: 80,00</p>
+                <button class="decrease" onclick="verwijderProduct(shellfishMedley, 80)">-</button>
+                <button class="increase" onclick="koopProduct(shellfishMedley, 80)">+</button>
+                <p>Aantal <input type="number" id="aantalShellfishMedley" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsShellfishMedley" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="tasmanian-sea-trout" src="./Afbeeldingen/Tasmanian sea trout.jpeg">
+                <p>Tasmanian sea trout: 70,00</p>
+                <button class="decrease" onclick="verwijderProduct(tasmanianSeaTrout, 70)">-</button>
+                <button class="increase" onclick="koopProduct(tasmanianSeaTrout, 70)">+</button>
+                <p>Aantal <input type="number" id="aantalTasmanianSeaTrout" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsTasmanianSeaTrout" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="tuna" src="./Afbeeldingen/Tuna.jpg">
+                <p>Tuna: 130,00</p>
+                <button class="decrease" onclick="verwijderProduct(tuna, 130)">-</button>
+                <button class="increase" onclick="koopProduct(tuna, 130)">+</button>
+                <p>Aantal <input type="number" id="aantalTuna" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsTuna" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="tuna-urchin" src="./Afbeeldingen/Tuna urchin.PNG">
+                <p>Tuna urchin: 180,00</p>
+                <button class="decrease" onclick="verwijderProduct(tunaUrchin, 180)">-</button>
+                <button class="increase" onclick="koopProduct(tunaUrchin, 180)">+</button>
+                <p>Aantal <input type="number" id="aantalTunaUrchin" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsTunaUrchin" value="0" ></p>
+            </div>
+            <div class="grid-item"><img class="tapas" src="./Afbeeldingen/Tapas.jpg">
+                <p>Tapas: 50,00</p>
+                <button class="decrease" onclick="verwijderProduct(tapas, 50)">-</button>
+                <button class="increase" onclick="koopProduct(tapas, 50)">+</button>
+                <p>Aantal <input type="number" id="aantalTapas" value="0" min="0"></p>
+                <p>Prijs <input type="number" id="prijsTapas" value="0" ></p>
+            </div>
+            <div class="totaal">
+                <button class="submit" onclick="berekenTotaal()">Bereken</button><br/>
+                <p>Totale bedrag: </p>
+                <input type="number" id="totaal" value="0" >
+            </div>
+        </div>
+<script src="./Data/Javascript/menupagina.js"></script>
+</body>
+</html>
