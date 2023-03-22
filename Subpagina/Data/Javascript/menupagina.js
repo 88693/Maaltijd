@@ -2,7 +2,7 @@ let artichoke = 0;
 let blackbass = 0;
 let caviar = 0;
 let crab = 0;
-let filetmignon = 0;
+let filetMignon = 0;
 let kampachi = 0;
 let langoustine = 0;
 let lobster = 0;
@@ -19,6 +19,7 @@ let tasmanianseatrout = 0;
 let tuna = 0;
 let tunaurchin = 0;
 let tapas = 0;
+
 let totaalArtichoke = 0;
 let totaalBlackbass = 0;
 let totaalCaviar = 0;
@@ -40,11 +41,12 @@ let totaalTasmanianseatrout = 0;
 let totaalTuna = 0;
 let totaalTunaurchin = 0;
 let totaalTapas = 0;
+
 document.getElementById("aantalArtichoke").value = artichoke;
 document.getElementById("aantalBlackBass").value = blackbass;
 document.getElementById("aantalCaviar").value = caviar;
 document.getElementById("aantalCrab").value = crab;
-document.getElementById("aantalFiletMignon").value = filetmignon;
+document.getElementById("aantalFiletMignon").value = filetMignon;
 document.getElementById("aantalKampachi").value = kampachi;
 document.getElementById("aantalLangoustine").value = langoustine;
 document.getElementById("aantalLobster").value = lobster;
@@ -62,9 +64,23 @@ document.getElementById("aantalTuna").value = tuna;
 document.getElementById("aantalTunaUrchin").value = tunaurchin;
 document.getElementById("aantalTapas").value = tapas;
 
-function koopProduct(product, aantal) {
-    product + aantal;
-    console.log(aantal);
+document.getElementById("prijsArtichoke").value = totaalArtichoke;
+
+let koopProduct = function(product, aantal) {
+
+    console.log(product, aantal, artichoke)
+
+if (product === 'artichoke') {
+    artichoke = artichoke + 1;
+    totaalArtichoke = totaalArtichoke + aantal;
+}
+
+if (product === 'blackBass') {
+    blackbass = blackbass + 1;
+    totaalBlackbass = totaalBlackbass + aantal;
 }
 
 document.getElementById("aantalArtichoke").value = artichoke;
+document.getElementById("aantalBlackBass").value = blackbass;
+}
+
