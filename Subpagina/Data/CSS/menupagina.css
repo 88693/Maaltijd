@@ -75,48 +75,56 @@ button {
 }
 
 #aantalArtichoke,
-#prijsArtichoke,
 #aantalBlackBass,
-#prijsBlackBass,
 #aantalCaviar,
-#prijsCaviar,
 #aantalCrab,
-#prijsCrab,
 #aantalFiletMignon,
-#prijsFiletMignon,
 #aantalKampachi,
-#prijsKampachi,
 #aantalLangoustine,
-#prijsLangoustine,
 #aantalLobster,
-#prijsLobster,
-#aantalMeslunSalad,
-#prijsMeslunSalad,
+#aantalMesclunSalad,
 #aantalOctopus,
-#prijsOctopus,
 #aantalOysterUni,
-#prijsOysterUni,
 #aantalOyster,
-#prijsOyster,
 #aantalRedSnapper,
-#prijsRedSnapper,
 #aantalSalmon,
-#prijsSalmon,
 #aantalScallopCaviar,
-#prijsScallopCaviar,
 #aantalScallop,
-#prijsScallop,
 #aantalShellfishMedley,
-#prijsShellfishMedley,
 #aantalTasmanianSeaTrout,
-#prijsTasmanianSeaTrout,
 #aantalTuna,
-#prijsTuna,
 #aantalTunaUrchin,
-#prijsTunaUrchin,
-#aantalTapas,
-#prijsTapas {
+#aantalTapas {
     width: 60px;
+    height: 35px;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#prijsArtichoke,
+#prijsBlackBass,
+#prijsCaviar,
+#prijsCrab,
+#prijsFiletMignon,
+#prijsKampachi,
+#prijsLangoustine,
+#prijsLobster,
+#prijsMeslunSalad,
+#prijsOctopus,
+#prijsOysterUni,
+#prijsOyster,
+#prijsRedSnapper,
+#prijsSalmon,
+#prijsScallopCaviar,
+#prijsScallop,
+#prijsShellfishMedley,
+#prijsTasmanianSeaTrout,
+#prijsTuna,
+#prijsTunaUrchin,
+#prijsTapas {
+    width: 80px;
     height: 35px;
     border: 1px solid black;
     text-align: center;
