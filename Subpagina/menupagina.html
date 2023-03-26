@@ -8,6 +8,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu pagina</title>
 </head>
+<nav>
+    <img src="/images/logo.png" class="menu-img">
+    <ul>
+        <li><a href="#">Menu</a></li>
+    </ul>
+    <ul>
+        <li><a href="./menupagina.html">Bestellen</a></li>
+    </ul>
+    <ul>
+        <li><a href="#">Info</a></li>
+    </ul>
+    <button type="button" onclick="toggleBTN()" id="btn"><span></span></button>
+</nav>
+
 <body>
     <div class="grid-container">
             <div class="grid-item"><img class="artichoke" src="./Afbeeldingen/Artichoke.jpg">
@@ -158,9 +172,9 @@
                 <p>Prijs <input type="number" id="prijsTapas" value="0" ></p>
             </div>
             <div class="totaal">
-                <button class="submit" onclick="berekenTotaal()">Bereken</button><br/>
                 <p>Totale bedrag: </p>
-                <input type="number" id="totaal" value="0" >
+                <input type="number" id="totaal" value="0" ><br/>
+                <input type="button" id="bestelknop" class="submit" onclick="bestel()" value="Bestel">
             </div>
         </div>
 <script defer src="./Data/Javascript/menupagina.js"></script>
