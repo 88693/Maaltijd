@@ -1,6 +1,35 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #fffcf9;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #FBF6EF;
+}
+
+nav .menu-img {
+    width: 100px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
 }
 
 .grid-container {
@@ -51,7 +80,9 @@ img {
 .tapas {
     width: 448px;
     height: 328px;
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 button {
@@ -75,53 +106,55 @@ button {
 }
 
 #aantalArtichoke,
-#prijsArtichoke,
 #aantalBlackBass,
-#prijsBlackBass,
 #aantalCaviar,
-#prijsCaviar,
 #aantalCrab,
-#prijsCrab,
 #aantalFiletMignon,
-#prijsFiletMignon,
 #aantalKampachi,
-#prijsKampachi,
 #aantalLangoustine,
-#prijsLangoustine,
 #aantalLobster,
-#prijsLobster,
-#aantalMeslunSalad,
-#prijsMeslunSalad,
+#aantalMesclunSalad,
 #aantalOctopus,
-#prijsOctopus,
 #aantalOysterUni,
-#prijsOysterUni,
 #aantalOyster,
-#prijsOyster,
 #aantalRedSnapper,
-#prijsRedSnapper,
 #aantalSalmon,
-#prijsSalmon,
 #aantalScallopCaviar,
-#prijsScallopCaviar,
 #aantalScallop,
-#prijsScallop,
 #aantalShellfishMedley,
-#prijsShellfishMedley,
 #aantalTasmanianSeaTrout,
-#prijsTasmanianSeaTrout,
 #aantalTuna,
-#prijsTuna,
 #aantalTunaUrchin,
-#prijsTunaUrchin,
-#aantalTapas,
-#prijsTapas {
-    width: 60px;
+#aantalTapas {
+    width: 50px;
     height: 35px;
     border: 1px solid black;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+}
+
+#prijsArtichoke,
+#prijsBlackBass,
+#prijsCaviar,
+#prijsCrab,
+#prijsFiletMignon,
+#prijsKampachi,
+#prijsLangoustine,
+#prijsLobster,
+#prijsMeslunSalad,
+#prijsOctopus,
+#prijsOysterUni,
+#prijsOyster,
+#prijsRedSnapper,
+#prijsSalmon,
+#prijsScallopCaviar,
+#prijsScallop,
+#prijsShellfishMedley,
+#prijsTasmanianSeaTrout,
+#prijsTuna,
+#prijsTunaUrchin,
+#prijsTapas {
+    width: 80px;
+    height: 35px;
+    border: 1px solid black;
 }
 
 .totaal {
@@ -145,4 +178,13 @@ button {
     width: 125px;
     height: 50px;
     background-color: gray;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input {
+    background-color: white;
 }
