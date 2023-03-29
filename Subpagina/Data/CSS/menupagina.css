@@ -184,3 +184,7 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
+
+input {
+    background-color: white;
+}
