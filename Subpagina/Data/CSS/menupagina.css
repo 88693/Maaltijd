@@ -96,6 +96,7 @@ button {
     height: 30px;
     background-color: gray;
     border: 1px solid black;
+    line-height: 0;
 }
 
 .decrease {
@@ -103,6 +104,7 @@ button {
     height: 30px;
     background-color: gray;
     border: 1px solid black;
+    line-height: 0;
 }
 
 #aantalArtichoke,
