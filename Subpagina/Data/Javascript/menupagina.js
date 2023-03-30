@@ -418,8 +418,12 @@ document.getElementById("totaal").value = prijs > 0 ? prijs : 0;
 
 function bestel() {
     if (prijs == 0) {
-        window.alert("U heeft geen producten geselecteerd.");
-    } else if (prijs > 0){
-        window.alert("Uw bestelling is geplaatst. Uw totaal bedraagt: " + prijs + " euro. Uw bestelling wordt zo snel mogelijk bezorgd.");
+        window.alert("U heeft geen producten geselecteerd.");  
+    } else if (document.getElementById("personen").value == 0) {
+        window.alert("U heeft geen aantal personen ingevuld.");
+    } else if (document.getElementById("personen").value < 0) {
+        window.alert("U heeft een negatief aantal personen ingevuld.");
+    } else if (prijs > 0 && document.getElementById("personen").value > 0){
+        window.alert("Uw bestelling is geplaatst. Uw totaal bedraagt: " + prijs + " euro." + " Aantal personen: " + document.getElementById("personen").value + " Uw bestelling wordt zo snel mogelijk bezorgd.");
     }
 }
