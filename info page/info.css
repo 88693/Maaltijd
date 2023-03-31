@@ -55,25 +55,43 @@ button span {
     transition: background .5s;
 }
 
-.container{
-    display: flex;
-    margin: 4px;
-}
-.card1{
-    background-color: green;
+.card{
+    color: black;
+    background: #EAD7C3;
     width: 33%;
-    margin: 2px;
-    height: 90vh;
+    height: 79vh;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 17px;
+    padding: 4px;
 }
+
 
 .card2{
-    background-color: blue;
+    color: black;
+    background: #EAD7C3;
     width: 33%;
-    margin: 2px;
+    height: 79vh;
+    font-family: Roboto Condensed,sans-serif;
+    font-weight: 400;
+    margin: 17px;
+    padding: 4px;
 }
 
+
 .card3{
-    background-color: antiquewhite;
+    color: black;
+    background: #EAD7C3;
     width: 33%;
-    margin: 2px;
+    height: 79vh;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 17px;
+    padding: 4px;
+}
+
+
+.onder{
+    margin-top: 50px;
+    display: flex;
 }
